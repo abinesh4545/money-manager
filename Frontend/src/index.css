@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* Wrapper for both filters */
+.filter-container {
+  display: flex;
+  flex-direction: column;   /* SAME COLUMN */
+  gap: 16px;
+  margin-top: 16px;
+}
+
+/* Each filter card */
+.filter-card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+/* Inside inputs layout */
+.filter-row {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Desktop improvement */
+@media (min-width: 768px) {
+  .filter-row {
+    flex-direction: row;
+  }
+
+  .filter-row > * {
+    flex: 1;
+  }
+}
