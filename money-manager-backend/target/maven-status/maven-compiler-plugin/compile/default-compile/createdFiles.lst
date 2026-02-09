@@ -1,0 +1,11 @@
+com\moneymanager\model\Transaction.class
+com\moneymanager\model\TransactionType.class
+com\moneymanager\service\TransactionService.class
+com\moneymanager\MoneyManagerBackendApplication.class
+com\moneymanager\service\package-info.class
+com\moneymanager\controller\TransactionController.class
+com\moneymanager\model\Division.class
+com\moneymanager\repository\TransactionRepository.class
+com\moneymanager\repository\package-info.class
+com\moneymanager\controller\package-info.class
+com\moneymanager\model\package-info.class
