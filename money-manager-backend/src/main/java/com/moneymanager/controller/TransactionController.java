@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/transactions")
-@CrossOrigin(origins = "https://moneymanager-14.netlify.app/")
+@CrossOrigin(origins = "https://moneymanager-14.netlify.app")
 public class TransactionController {
 
     private final TransactionService service;
