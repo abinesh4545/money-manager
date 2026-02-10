@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080/api/transactions";
+const BASE_URL = "https://money-managers.onrender.com";
 
 export async function getAllTransactions() {
   const res = await fetch(BASE_URL);
