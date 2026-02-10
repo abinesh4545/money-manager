@@ -1,4 +1,4 @@
-const BASE_URL = "https://money-managers.onrender.com";
+const BASE_URL = "https://money-managers.onrender.com/api/transactions";
 
 export async function getAllTransactions() {
   const res = await fetch(BASE_URL);
